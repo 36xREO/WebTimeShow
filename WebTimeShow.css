@@ -1,0 +1,31 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: lucida sans unicode,Microsoft YaHei,Open Sans,sans-serif;
+   background-color: #00ff00;
+}
+
+#fangKuang {
+   width: 200px;
+   height: 100px;
+   background-color: White;
+}
+
+#jieQi:nth-child(n) {
+   content: "立春、春分、立夏、夏至、立秋、秋分、立冬、冬至、雨水、惊蛰、清明、谷雨、小满、芒种、小暑、大暑、处暑、白露、寒露、霜降、小雪、大雪、小寒、大寒";
+}
+
+#time {
+   color: Black;
+   text-align: left;
+   border: 2px dashed #000;
+   border-radius: 10px;
+   height: 90px;
+   width: 160px;
+   animation-timing-function: ease-in-out;
+   background-color: White;
+}
+
+#clock {
+   font-size: 30px;
+}
